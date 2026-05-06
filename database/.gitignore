@@ -1,0 +1,31 @@
+*.sqlite*
+# Folder Dependensi
+/node_modules
+/vendor
+
+# File Konfigurasi Sensitif
+.env
+.env.backup
+.env.production
+
+# Folder Storage & Cache
+/storage/*.key
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Folder Publik & Aset (Hasil Compile)
+/public/hot
+/public/storage
+/public/build
+
+# File Sistem & IDE
+.phpunit.result.cache
+.vscode/
+.idea/
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+.DS_Store
+Thumbs.db
